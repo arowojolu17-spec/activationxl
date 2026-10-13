@@ -15,10 +15,10 @@ interface PaymentPageProps {
 }
 
 const PAYMENT_DETAILS = {
-  amount: "₦25,500",
-  accountNumber: "1031928326",
-  bankName: "Guaranty Trust Bank",
-  accountName: "ABAYOMI AKINBO",
+  amount: "₦15,000",
+  accountNumber: "2090745515",
+  bankName: "KUDA",
+  accountName: "EMMANUEL OLUWASEYIFUNMI OLAWOLE",
 }
 
 export function PaymentPage({ onSubmit, onBack, isSaving = false, saveError = null }: PaymentPageProps) {
